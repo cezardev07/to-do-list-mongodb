@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: #121212;
+  color: #ffffff;
+}
+
+#root{
+  position: relative;
+}
+.drop-down{
+  cursor: default;
+}
+.options{
+  display: none;
+  position: absolute;
+  min-width: 143.067px;
+  right: 0;
+}
+.drop-down:hover .options{
+  display: block;
+}
